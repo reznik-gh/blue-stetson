@@ -23,9 +23,13 @@ modules:
       - xorg-x11-nvidia
       - gnome-terminal
     remove:
-      - gnome-shell-extension-{apps-menu,background-logo,launch-new-instance,places-menu,supergfxctl-gex,window-list}
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      - gnome-shell-extension-apps-menu
+      - gnome-shell-extension-background-logo
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-supergfxctl-gex
+      - gnome-shell-extension-window-list
+      # Vorerst nicht:
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       
