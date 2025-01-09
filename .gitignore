@@ -1,3 +1,4 @@
+.gitignore
 cosign.key
 cosign.private
 /Containerfile
