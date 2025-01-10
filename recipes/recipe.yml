@@ -19,7 +19,7 @@ modules:
     repos:
       # - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://repo.protonvpn.com/fedora-%OS_VERSION%-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
+      - https://repo.protonvpn.com/fedora-41-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
     install:
       - proton-vpn-gnome-desktop
       - xorg-x11-nvidia
