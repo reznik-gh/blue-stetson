@@ -1,43 +1,56 @@
-# blue-stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml)
+# Blue Stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+## Allgemeines
+Mein eigenes ublue image. Gebaut nach der Anleitung auf [BlueBuild docs](https://blue-build.org/how-to/setup/) :uk:
+![Screenshot des Gnome Terminals mit der Ausgabe von fastfetch](/blue-stetson-screenshot.png)
 
-After setup, it is recommended you update this README to describe your custom image.
+### Der Name
+Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind die klassischen Cowboy-Hütte, auch wenn Clint als mein Avatar hier keinen trägt.
+
+### basiert auf
+[silverblue-nvidia](https://github.com/ublue-os/hwe/pkgs/container/silverblue-nvidia)
+
+### Hinzugefügte Pakete
+- xorg-x11-nvidia
+- gnome-terminal
+- fastfetch & fastfetch-bash-completion
+
+### Entfernte Pakete
+- ublue-os-just & just
+- ptyxis
+- gnome-classic-session
+- gnome-shell-extension-{background-logo,supergfxctl-gex,apps-menu,launch-new-instance,places-menu,window-list}
+
+### Hinzugefügte Dateien
+*noch nichts*
+
+### Hinzugefügte Configs
+*noch nichts*
+
 
 ## Installation
 
-> **Warning**  
-> [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
-
-To rebase an existing atomic Fedora installation to the latest build:
-
-- First rebase to the unsigned image, to get the proper signing keys and policies installed:
-  ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/reznik-gh/blue-stetson:latest
-  ```
-- Reboot to complete the rebase:
-  ```
-  systemctl reboot
-  ```
-- Then rebase to the signed image, like so:
+> [!Warning]
+> [Das hier ist ein experimentelles Feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable) :uk: *Eltern haften für ihre Kinder.*
+Ich weiß zwar nicht warum man das jemand anderes als ich machen will, aber nun gut, es geht ja. Die einfachste Methode ist ein Rebase von einem Fedora Atomic Desktop. Entgegen anders lautenden Gerüchten kann man das direkt auf das signierte Image machen:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/reznik-gh/blue-stetson:latest
   ```
-- Reboot again to complete the installation
+Jetzt noch schnellen Reboot
   ```
   systemctl reboot
   ```
+und fertig. Herzlichen Glückwunsch! Warum auch immer du das gemacht hast.
 
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
+## Verifizierung
 
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
-
-## Verification
-
-These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
+Diese Images sind mit [Sigstore](https://www.sigstore.dev/)s [cosign](https://github.com/sigstore/cosign) signiert. Du kannst die Signatur verifizieren, indem du die `cosign.pub` aus diesem Repo runterlädst und folgenden Befehl ausführst:
 
 ```bash
 cosign verify --key cosign.pub ghcr.io/reznik-gh/blue-stetson
 ```
+
+## ISO
+
+Es ist möglich eine Iso als Installationsmedium zu generieren, wenn der ganze Bumms direkt auf Fedora Atomic basiert. Kann man aber nicht auf Github hosten, da die ISOs zu groß sind. [Hier](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso) :uk: gibt es Infos wie das geht. Vielleicht mach ich das irgendwann mal. Wahrscheinlich aber nicht.
+
