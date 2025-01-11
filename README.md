@@ -14,9 +14,11 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 - xorg-x11-nvidia
 - gnome-terminal
 - fastfetch & fastfetch-bash-completion
+- distrobox
 
 ### Entfernte Pakete
 - ublue-os-just & just
+- ublue-os-update-service
 - ptyxis
 - gnome-classic-session
 - gnome-shell-extension-{background-logo,supergfxctl-gex,apps-menu,launch-new-instance,places-menu,window-list}
