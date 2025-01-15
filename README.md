@@ -12,16 +12,22 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 
 ### Hinzugefügte Pakete
 - xorg-x11-nvidia
-- gnome-terminal
-- fastfetch & fastfetch-bash-completion
+- fastfetch & bash-completion
 - distrobox
+- yt-dlp & bash-completion
+- pwgen
 
 ### Entfernte Pakete
 - ublue-os-just & just
 - ublue-os-update-service
-- ptyxis
 - gnome-classic-session
-- gnome-shell-extension-{background-logo,supergfxctl-gex,apps-menu,launch-new-instance,places-menu,window-list}
+- gnome-shell-extensions:
+  - background-logo
+  - supergfxctl-gex
+  - apps-menu
+  - launch-new-instance
+  - places-menu
+  - window-list
 
 ### Hinzugefügte Dateien
 *noch nichts*
@@ -34,6 +40,7 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 
 > [!Warning]
 > [Das hier ist ein experimentelles Feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable) :uk: *Eltern haften für ihre Kinder.*
+
 Ich weiß zwar nicht warum man das jemand anderes als ich machen will, aber nun gut, es geht ja. Die einfachste Methode ist ein Rebase von einem Fedora Atomic Desktop. Entgegen anders lautenden Gerüchten kann man das direkt auf das signierte Image machen:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/reznik-gh/blue-stetson:latest

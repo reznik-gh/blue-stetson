@@ -28,6 +28,9 @@ modules:
       - fastfetch
       - fastfetch-bash-completion
       - distrobox
+      - yt-dlp
+      - yt-dlp-bash-completion
+      - pwgen
     remove:
       - ublue-os-update-services
       - ublue-os-just
