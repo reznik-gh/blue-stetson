@@ -31,6 +31,7 @@ modules:
       - yt-dlp
       - yt-dlp-bash-completion
       - pwgen
+      - gnome-extensions-app
     remove:
       - ublue-os-update-services
       - ublue-os-just
