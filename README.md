@@ -1,4 +1,4 @@
-# Blue Stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml)
+# Blue Stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml) [![build-41](https://github.com/ublue-os/hwe/actions/workflows/build-41.yml/badge.svg)](https://github.com/ublue-os/hwe/actions/workflows/build-41.yml)
 
 ## Allgemeines
 Mein eigenes ublue image. Gebaut nach der Anleitung auf [BlueBuild docs](https://blue-build.org/how-to/setup/) :uk:
@@ -16,8 +16,10 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 - distrobox
 - yt-dlp & bash-completion
 - pwgen
+- moc
 
 ### Entfernte Pakete
+- Firefox
 - ublue-os-just & just
 - ublue-os-update-service
 - gnome-classic-session

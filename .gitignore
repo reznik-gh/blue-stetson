@@ -1,5 +1,5 @@
 .gitignore
-test.txt
+secret.txt
 cosign.key
 cosign.private
 /Containerfile
