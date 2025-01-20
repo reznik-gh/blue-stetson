@@ -21,7 +21,7 @@ modules:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       # Vorerst nicht. Wenn ich etwas Zeit habe, die Fehler zu analysieren.
       # - https://repo.protonvpn.com/fedora-41-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
-      -  https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      # -  https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     install:
       # - proton-vpn-gnome-desktop
       # s.o.
@@ -32,7 +32,6 @@ modules:
       - yt-dlp
       - yt-dlp-bash-completion
       - pwgen
-      - moc
     remove:
       - ublue-os-update-services
       - ublue-os-just
