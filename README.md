@@ -16,7 +16,6 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 - distrobox
 - yt-dlp & bash-completion
 - pwgen
-- moc
 
 ### Entfernte Pakete
 - Firefox
@@ -32,7 +31,7 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
   - window-list
 
 ### Hinzugefügte Dateien
-*noch nichts*
+- Layan light theme
 
 ### Hinzugefügte Configs
 *noch nichts*
