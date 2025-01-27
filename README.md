@@ -1,4 +1,4 @@
-# Blue Stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml) [![build-41](https://github.com/ublue-os/hwe/actions/workflows/build-41.yml/badge.svg)](https://github.com/ublue-os/hwe/actions/workflows/build-41.yml)
+# Blue Stetson &nbsp; [![bluebuild build badge](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml/badge.svg)](https://github.com/reznik-gh/blue-stetson/actions/workflows/build.yml)
 
 ## Allgemeines
 Mein eigenes ublue image. Gebaut nach der Anleitung auf [BlueBuild docs](https://blue-build.org/how-to/setup/) :uk:
