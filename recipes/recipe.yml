@@ -25,6 +25,7 @@ modules:
     install:
       # - proton-vpn-gnome-desktop
       # s.o.
+      - cowsay
       - xorg-x11-nvidia
       - fastfetch
       - fastfetch-bash-completion
@@ -32,6 +33,7 @@ modules:
       - yt-dlp
       - yt-dlp-bash-completion
       - pwgen
+      - akmod-xpadneo
     remove:
       - ublue-os-update-services
       - ublue-os-just

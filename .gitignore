@@ -1,7 +1,5 @@
 .gitignore
-Na-neugierig?.txt
-Die-gitignore-kommt-von-ublue-koennte-ich-mal-löschen.txt
-secret.txt
+planb.txt
 cosign.key
 cosign.private
 /Containerfile

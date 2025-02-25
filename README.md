@@ -11,10 +11,11 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 [silverblue-nvidia](https://github.com/ublue-os/hwe/pkgs/container/silverblue-nvidia)
 
 ### Hinzugefügte Pakete
+- cowsay
 - xorg-x11-nvidia
-- fastfetch & bash-completion
+- fastfetch
 - distrobox
-- yt-dlp & bash-completion
+- yt-dlp
 - pwgen
 
 ### Entfernte Pakete
