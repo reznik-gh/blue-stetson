@@ -33,7 +33,7 @@ modules:
       - yt-dlp
       - yt-dlp-bash-completion
       - pwgen
-      - akmod-xpadneo
+      - akmod-xone
     remove:
       - ublue-os-update-services
       - ublue-os-just
