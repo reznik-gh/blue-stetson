@@ -35,6 +35,7 @@ modules:
       - yt-dlp-bash-completion
       - pwgen
       - akmod-xone
+      - plasma-workspace-x11
      # - gnome-session-xsession
     remove:
       - ublue-os-update-services
