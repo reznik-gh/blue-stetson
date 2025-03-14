@@ -4,7 +4,8 @@ name: blue-stetson
 description: My personal silverblue image. Probably no use for anybody else...
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/kinoite-nvidia
+# silverblue-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -34,18 +35,18 @@ modules:
       - yt-dlp-bash-completion
       - pwgen
       - akmod-xone
-      - gnome-session-xsession
+     # - gnome-session-xsession
     remove:
       - ublue-os-update-services
       - ublue-os-just
       - just
-      - gnome-classic-session
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-supergfxctl-gex
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
+      # - gnome-classic-session
+      # - gnome-shell-extension-background-logo
+      # - gnome-shell-extension-supergfxctl-gex
+      # - gnome-shell-extension-apps-menu
+      # - gnome-shell-extension-launch-new-instance
+      # - gnome-shell-extension-places-menu
+      # - gnome-shell-extension-window-list
       - firefox
       - firefox-langpacks 
       # also remove firefox dependency (not required for all packages, this is a special case)
