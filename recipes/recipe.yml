@@ -39,7 +39,7 @@ modules:
       - pwgen
       - akmod-xone
       - plasma-workspace-x11
-      # - moc
+      - moc
      # - gnome-session-xsession
     remove:
       - ublue-os-update-services
