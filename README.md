@@ -32,7 +32,7 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
   - window-list
 
 ### Hinzugefügte Dateien
-- Layan light theme
+- Nordic Polar Theme
 
 ### Hinzugefügte Configs
 *noch nichts*
