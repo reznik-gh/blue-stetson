@@ -16,13 +16,16 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: repo-installer
+    option: true
+    
   - type: rpm-ostree
     repos:
-      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
+      # - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       # Vorerst nicht. Wenn ich etwas Zeit habe, die Fehler zu analysieren.
       # - https://repo.protonvpn.com/fedora-41-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.2-1.noarch.rpm
-      -  https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
+      # -  https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-%OS_VERSION%.noarch.rpm
     install:
       # - proton-vpn-gnome-desktop
       # s.o.
@@ -66,7 +69,7 @@ modules:
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
-      # Installing different branches of the same Flatpak is not supported.
+      # lling different branches of the same Flatpak is not supported.
       remove:
       # - org.gnome.eog
 
