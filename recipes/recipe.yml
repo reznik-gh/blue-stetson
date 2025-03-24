@@ -30,7 +30,7 @@ modules:
       # - proton-vpn-gnome-desktop
       # s.o.
       - cowsay
-      - xorg-x11-nvidia
+      # - xorg-x11-nvidia
       - fastfetch
       - fastfetch-bash-completion
       - distrobox
@@ -38,7 +38,7 @@ modules:
       - yt-dlp-bash-completion
       - pwgen
       - moc
-      - gnome-session-xsession
+      # - gnome-session-xsession
     remove:
       - ublue-os-update-services
       - ublue-os-just
