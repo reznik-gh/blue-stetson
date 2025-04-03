@@ -38,6 +38,7 @@ modules:
       - yt-dlp-bash-completion
       - pwgen
       - moc
+      - ghostty
       # - gnome-session-xsession
     remove:
       - ublue-os-update-services
