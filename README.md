@@ -18,7 +18,6 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 - pwgen
 - moc
 - ghostty
-- powerline + fonts + docs
 
 ### Entfernte Pakete
 - Firefox
