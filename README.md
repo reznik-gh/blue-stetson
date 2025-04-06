@@ -12,11 +12,13 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 
 ### Hinzugefügte Pakete
 - cowsay
-- xorg-x11-nvidia
 - fastfetch
 - distrobox
 - yt-dlp
 - pwgen
+- moc
+- ghostty
+- powerline + fonts + docs
 
 ### Entfernte Pakete
 - Firefox

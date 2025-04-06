@@ -39,6 +39,9 @@ modules:
       - pwgen
       - moc
       - ghostty
+      - powerline
+      - powerline-fonts
+      - powerline-docs
       # - gnome-session-xsession
     remove:
       - ublue-os-update-services
