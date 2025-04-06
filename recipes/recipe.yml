@@ -39,6 +39,7 @@ modules:
       - pwgen
       - moc
       - ghostty
+      - python3-pip
       # - gnome-session-xsession
     remove:
       - ublue-os-update-services
