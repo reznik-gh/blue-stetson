@@ -65,5 +65,5 @@ cosign verify --key cosign.pub ghcr.io/reznik-gh/blue-stetson
 
 ## ISO
 
-Es ist möglich eine Iso als Installationsmedium zu generieren, wenn der ganze Bumms direkt auf Fedora Atomic basiert. Kann man aber nicht auf Github hosten, da die ISOs zu groß sind. [Hier](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso) :uk: gibt es Infos wie das geht. Vielleicht mach ich das irgendwann mal. Wahrscheinlich aber nicht.
+Es ist möglich eine Iso als Installationsmedium zu generieren, wenn der ganze Bumms direkt auf Fedora Atomic basiert. Kann man aber nicht auf Github hosten, da die ISOs zu groß sind. *(Halte ich tatsächlich für eine Ausrede, aber ok...)* [Hier](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso) :uk: gibt es Infos wie das geht. Vielleicht mach ich das irgendwann mal. Wahrscheinlich aber nicht.
 

@@ -40,6 +40,7 @@ modules:
       - moc
       - ghostty
       - python3-pip
+      - powerline-fonts
       # - gnome-session-xsession
     remove:
       - ublue-os-update-services
