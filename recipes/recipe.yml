@@ -6,7 +6,7 @@ description: My personal silverblue image. Probably no use for anybody else...
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-nvidia
 
-image-version: 41
+image-version: 42
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
