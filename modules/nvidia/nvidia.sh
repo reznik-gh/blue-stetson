@@ -9,7 +9,7 @@ dnf5 install --assumeyes https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-
 ## Treiber installieren
 echo "***** Installiere Treiber *****"
 dnf5 install -y akmod-nvidia
-dnf5 install -y xorg-x11-drv-nvidia
+# dnf5 install -y xorg-x11-drv-nvidia
 
 ## Noveau blacklisten. 
 rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1
