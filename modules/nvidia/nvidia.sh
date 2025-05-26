@@ -12,5 +12,5 @@ dnf5 install -y akmod-nvidia
 # dnf5 install -y xorg-x11-drv-nvidia
 
 ## Noveau blacklisten. 
-rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1
+# rpm-ostree kargs --append=rd.driver.blacklist=nouveau --append=modprobe.blacklist=nouveau --append=nvidia-drm.modeset=1
 
