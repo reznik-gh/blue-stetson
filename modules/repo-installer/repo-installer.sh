@@ -5,8 +5,8 @@ set -euo pipefail
 # die verschiedenen Wege Repos zu installieren.
 
 # rpmfusion free only
-echo "***** Installiere RPMfusion *****"
-dnf5 install --assumeyes https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+# echo "***** Installiere RPMfusion *****"
+# dnf5 install --assumeyes https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 
 # Ghostty
 echo "***** Aktiviere das Ghostty COPR *****"

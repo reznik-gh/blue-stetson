@@ -4,7 +4,7 @@ name: blue-stetson
 description: My personal silverblue image. Probably no use for anybody else...
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: 41
 
 # module configuration, executed in order
@@ -16,6 +16,12 @@ modules:
         destination: / # copies files/system/* into your image's root folder /
 
   - type: repo-installer
+    option: true
+    
+  - type: nvidia
+    option: true
+    
+  - type: initramfs
     option: true
     
   - type: rpm-ostree
@@ -35,6 +41,7 @@ modules:
       - python3-pip
       - powerline-fonts
       - gnome-tweaks
+      - cascadia-mono-nf-fonts
     remove:
       - ublue-os-update-services
       - ublue-os-just

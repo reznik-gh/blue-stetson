@@ -45,6 +45,10 @@ Das ist einfach: Fedora ist ein Hutmodel. Und Stetson auch. Und Stetsons sind di
 > [!Warning]
 > [Das hier ist ein experimentelles Feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable) :uk: *Eltern haften für ihre Kinder.*
 
+  ```
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/reznik-gh/blue-stetson:latest
+  ```
+
 Ich weiß zwar nicht warum man das jemand anderes als ich machen will, aber nun gut, es geht ja. Die einfachste Methode ist ein Rebase von einem Fedora Atomic Desktop. Entgegen anders lautenden Gerüchten kann man das direkt auf das signierte Image machen:
   ```
   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/reznik-gh/blue-stetson:latest
