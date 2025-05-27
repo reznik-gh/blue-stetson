@@ -6,7 +6,8 @@ set -euo pipefail
 
 # rpmfusion free only
 # echo "***** Installiere RPMfusion *****"
-# dnf5 install --assumeyes https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+dnf5 install --assumeyes https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+dnf5 install --assumeyes https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Ghostty
 echo "***** Aktiviere das Ghostty COPR *****"
