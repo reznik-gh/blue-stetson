@@ -36,8 +36,8 @@ modules:
       - yt-dlp
       - yt-dlp-bash-completion
       - pwgen
-      - moc
-      - ghostty
+     # - moc
+     # - ghostty
       - python3-pip
       - powerline-fonts
       - gnome-tweaks
