@@ -16,13 +16,13 @@ modules:
         destination: / # copies files/system/* into your image's root folder /
 
   - type: repo-installer
-    option: true
+    option: false
     
   - type: nvidia
-    option: true
+    option: false
     
   - type: initramfs
-    option: true
+    option: false
     
   - type: rpm-ostree
     repos:
