@@ -43,6 +43,7 @@ modules:
       - gnome-tweaks
       - cascadia-mono-nf-fonts
       - backintime-qt
+      - gstreamer1-vaapi
     remove:
       - ublue-os-update-services
       - ublue-os-just
